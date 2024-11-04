@@ -60,7 +60,7 @@ menu_install_config() {
             4) 
                 echo -e "${GREEN}Configuration du DNS...${RESET}"
                 loading_animation
-                bash config/config-dns.sh ;;
+                bash config/config-dns_v2.sh ;;
             5) break ;;
             *) echo -e "${RED}Option invalide. Veuillez réessayer.${RESET}" ;;
         esac
